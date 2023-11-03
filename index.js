@@ -1,10 +1,10 @@
 var button = document.querySelectorAll(".calltoa");
 
 function happyKids() {
-    var kid1 = document.querySelector("#kid1");
-    var kid2 = document.querySelector("#kid2");
-    kid1.setAttribute("src", "images/boy2.png");
-    kid2.setAttribute("src", "images/girlh.png");
+    var k1 = document.querySelector("#kid1");
+    var k2 = document.querySelector("#kid2");
+    k1.setAttribute("src", "images/boy2.png");
+    k2.setAttribute("src", "images/girlh.png");
 }
 
 function sadKids() {
